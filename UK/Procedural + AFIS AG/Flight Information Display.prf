@@ -11,9 +11,9 @@ Settings	SettingsfileSEL	\..\Data\Settings\FID\FID_Lists.txt
 Settings	SettingsfileSIL	\..\Data\Settings\FID\FID_Lists.txt
 Settings	SettingsfileSYMBOLOGY	\..\Data\Settings\FID\FID_Symbology.txt
 Settings	SettingsfileTAGS	\..\Data\Settings\Tags.txt
-Settings	sector	UK\Data\Sector\UK_2023_08.sct
+Settings	SettingsfileVCCS	\..\Data\Settings\VCCS.txt
+Settings	sector	UK\Data\Sector\UK_2023_10.sct
 Settings	alias	\..\Data\Alias\AC_Alias.txt
-Settings	AtisFolder	\..\Data\ATIS\ATIS.txt
 Settings	SectorFileProviderDescriptor	\..\Data\Sector\VATUK_SectorFileProviderDescriptor.txt
 Plugins	Plugin0	\..\Data\Plugin\vSMR\vSMR.dll
 Plugins	Plugin0Display0	SMR radar display
@@ -21,6 +21,7 @@ Plugins	Plugin1	\..\Data\Plugin\UKControllerPlugin.dll
 Plugins	Plugin1Display0	Standard ES radar screen
 Plugins	Plugin1Display1	SMR radar display
 Plugins	Plugin2	\..\Data\Plugin\AfvEuroScopeBridge.dll
+Plugins	Plugin3	\..\Data\Plugin\VFPC.dll
 Settings	airlines	\..\Data\Datafiles\ICAO_Airlines.txt
 Settings	airports	\..\Data\Datafiles\ICAO_Airports.txt
 Settings	aircraft	\..\Data\Datafiles\ICAO_Aircraft.txt
@@ -35,3 +36,5 @@ RecentFiles	Recent1	\..\Data\ASR\FID\FID.asr
 RecentFiles	Recent2	\..\Data\ASR\FID\Generic SMR.asr
 ASRFastKeys	1	\..\Data\ASR\FID\FID.asr
 ASRFastKeys	2	\..\Data\ASR\FID\Generic SMR.asr
+TeamSpeakVccs	TsVccsMiniControlX	697
+TeamSpeakVccs	TsVccsMiniControlY	24

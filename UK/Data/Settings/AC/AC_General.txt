@@ -29,7 +29,7 @@ m_STCA_HighBottom:17500
 m_ExtendedCenterlinActiveArr:0
 m_UseHoveringTagForKeys:1
 m_AutoMessageForTextAircraft:1
-m_ShowRouteWhenAccepting:1
+m_ShowRouteWhenAccepting:0
 m_AllowAssumedACTagDown:0
 m_InhibitAutoPushOnHandoff:0
 m_RandomSquawks:1
@@ -83,7 +83,7 @@ m_MessageInfoLevel:1
 m_MessageWarningLevel:2
 m_MessageErrorLevel:4
 m_PointOutLevel:4
-m_HandoffRequestLevel:4
+m_HandoffRequestLevel:0
 m_CoordinationRequestLevel:4
 m_HandoffAcceptLevel:0
 m_HandoffRefuseLevel:2
@@ -132,6 +132,7 @@ m_ConnectTime:15
 m_AutoAssumeOnGroundStateChangeButton:0
 m_ShowTrackMilesInRouteButton:1
 m_FilterOutSquawks:
+m_EquipmentsIcaoFormat:1
 PILOTING
 m_Visible:0
 m_X:0

@@ -2035,6 +2035,7 @@ Runways:EIDW Dublin 10L-28R:centerline
 Runways:EIDW Dublin 10R-28L:centerline
 Runways:EIDW Dublin 16-34:centerline
 Sids:EGGP Liverpool SMAA:
+Stars:Hawarden RMA:
 Stars:Liverpool RMA:
 VORs:ABB:symbol
 VORs:ADN:symbol
@@ -2149,12 +2150,12 @@ PLUGIN:UK Controller Plugin:approachSequencerContentCollapsed:0
 PLUGIN:UK Controller Plugin:approachSequencerVisible:0
 PLUGIN:UK Controller Plugin:approachSequencerXPosition:200
 PLUGIN:UK Controller Plugin:approachSequencerYPosition:200
-PLUGIN:UK Controller Plugin:CountdownScreenPosX:1508
-PLUGIN:UK Controller Plugin:CountdownScreenPosY:54
+PLUGIN:UK Controller Plugin:CountdownScreenPosX:1683
+PLUGIN:UK Controller Plugin:CountdownScreenPosY:909
 PLUGIN:UK Controller Plugin:departureCoordinationListContentCollapsed:0
 PLUGIN:UK Controller Plugin:departureCoordinationListVisible:0
-PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:100
-PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:100
+PLUGIN:UK Controller Plugin:departureCoordinationListXPosition:0
+PLUGIN:UK Controller Plugin:departureCoordinationListYPosition:800
 PLUGIN:UK Controller Plugin:DisplayCountdown:1
 PLUGIN:UK Controller Plugin:DisplayMinStack:1
 PLUGIN:UK Controller Plugin:DisplayRegionalPressures:1
@@ -2171,15 +2172,26 @@ PLUGIN:UK Controller Plugin:HistoryTrailMaxAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailMinAltitudeFilter:0
 PLUGIN:UK Controller Plugin:HistoryTrailType:0
 PLUGIN:UK Controller Plugin:holdDisplayVisibility:1
-PLUGIN:UK Controller Plugin:MinStackScreenPosX:1398
-PLUGIN:UK Controller Plugin:MinStackScreenPosY:56
+PLUGIN:UK Controller Plugin:holdKEGUNMaxLevel:10000
+PLUGIN:UK Controller Plugin:holdKEGUNMinimised:0
+PLUGIN:UK Controller Plugin:holdKEGUNMinLevel:7000
+PLUGIN:UK Controller Plugin:holdKEGUNPositionX:201
+PLUGIN:UK Controller Plugin:holdKEGUNPositionY:801
+PLUGIN:UK Controller Plugin:holdTIPODMaxLevel:10000
+PLUGIN:UK Controller Plugin:holdTIPODMinimised:0
+PLUGIN:UK Controller Plugin:holdTIPODMinLevel:7000
+PLUGIN:UK Controller Plugin:holdTIPODPositionX:1431
+PLUGIN:UK Controller Plugin:holdTIPODPositionY:800
+PLUGIN:UK Controller Plugin:selectedHolds:KEGUN;TIPOD
+PLUGIN:UK Controller Plugin:MinStackScreenPosX:1669
+PLUGIN:UK Controller Plugin:MinStackScreenPosY:849
 PLUGIN:UK Controller Plugin:missedApproachButtonVisibility:1
 PLUGIN:UK Controller Plugin:missedApproachButtonXPosition:1592
 PLUGIN:UK Controller Plugin:missedApproachButtonYPosition:191
 PLUGIN:UK Controller Plugin:missedApproachRenderDuration:5
 PLUGIN:UK Controller Plugin:missedApproachRenderMode:2
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1568
-PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:104
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosX:1769
+PLUGIN:UK Controller Plugin:RegionalPressureScreenPosY:749
 PLUGIN:UK Controller Plugin:SelectedMinStack:tma.MTMA
 PLUGIN:UK Controller Plugin:SelectedRegionalPressures:ASR_MANCHESTER;ASR_BARNSLEY;ASR_HOLYHEAD
 PLUGIN:UK Controller Plugin:wakeCalculatorVisibility:0

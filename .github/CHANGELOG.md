@@ -1,11 +1,67 @@
+# Changes from release 2023/10 to 2023/11
+1. AIRAC (2311) - Area minimum altitudes updated - thanks to @luke11brown (Luke Brown)
+2. Bug - VFPC now loads into profiles automatically - thanks to luke11brown (Luke Brown)
+3. AIRAC (2311) - Exeter (EGTE) SMAA heights amended - thanks to @luke11brown (Luke Brown)
+4. Bug - removed colons from ATIS lines preventing display - thanks to @luke11brown (Luke Brown)
+5. Procedure Change (2311) - 8.33 Transition (ENR Phase 3) - Updated voice settings for UK enroute event positions - thanks to @hazzas-99
+
+# Changes from release 2023/09 to 2023/10
+1. Bug - Fixed ATIS frequencies in Essex Profiles for 8.33 Trial - thanks to @kye-taylor (Kye Taylor)
+2. Bug - Corrected Liverpool Ground profile type - thanks to @PLM1995 (Peter Mooney)
+3. Enhancement - Archived old ATIS sound files - thanks to @luke11brown (Luke Brown)
+4. Bug - Reinstated squawk error indicator to TopSky A+C correlated (detailed) tags - thanks to @luke11brown (Luke Brown)
+5. Enhancement - Intial climb info added to controller information lines - thanks to @luke11brown (Luke Brown)
+6. Enhancement - TopSky airspace management window opened on start up - thanks to @luke11brown (Luke Brown)
+7. Bug - Corrected Manchester Delivery (EGCC_DEL) profile type - thanks to @PLM1995 (Peter Mooney)
+8. Enhancement - Channel islands profile/display further refined - thanks to @luke11brown (Luke Brown)
+9. Bug - Changed Glasgow (EGPF) freetext alignment to 'Center Center' - thanks to @PLM1995 (Peter Mooney)
+10. Enhancement - Standardised profile naming in all airport folders - thanks to @luke11brown (Luke Brown)
+11. Enhancement - Added new SMR only profiles for all area positions/profiles - thanks to @luke11brown (Luke Brown)
+12. Enhancement - Harmonised list settings across profiles, with separate lists for TopSky, SMRs, APP, etc. - thanks to @luke11brown (Luke Brown)
+13. Enhancement - Added VFPC (Virtual Flight Plan Checker) plugin to all lists and profiles - thanks to @luke11brown (Luke Brown)
+14. Bug - Corrected UKCP trails on various profiles/ASRs - thanks to @hazzas-99
+15. Bug - Added missing EGLF Airspace Bases on South profiles - thanks to @hazzas-99
+16. Enhancement - Co-ordination related TopSky maps now display based on position covered, ignores adjacent ATC - thanks to @luke11brown (Luke Brown)
+17. Bug - Fixed callsign error in .stop alias - thanks to @PLM1995 (Peter Mooney)
+18. Bug - TopSky tags now use TopSky sector indicator - thanks to @luke11brown (Luke Brown)
+19. Bug - Flight Information Display now set up for VCCS use - thanks to @luke11brown (Luke Brown)
+20. Enhancement (TopSky) - Daylight saving dates updated for Oct 2023/Mar 2024 for auto map display - thanks to @luke11brown (Luke Brown)
+21. Procedure Change (2310) - 8.33 Trial (ENR Phase 2) - all non-event area frequencies amended - thanks to @luke11brown (Luke Brown)
+22. Procedure Change (2310) - 8.33 Trial (AD Phase 2) - EGKK frequencies amended - thanks to @luke11brown (Luke Brown)
+23. Bug - Corrected 'PSR' trails to rotate with aircraft - thanks to @SamLefevre (Samuel Lefevre)
+24. Enhancement - Added Hold Manager on APP displays - thanks to @SamLefevre (Samuel Lefevre)
+25. Enhancement - Added APP additional top-down SMRs to profiles (e.g. EGNR SMR on EGGP profile) - thanks to @hazzas-99
+26. Enhancement - Turned off confirm messages for handoff requests ('Coordination' chat) - thanks to @hazzas-99
+27. Enhancement - Redcuced STCA pre-warning and warning time for APP profiles - thanks to @hazzas-99
+28. Bug - TopSky CARD and shortcut menus default positions moved to reasonable locations - thanks to @luke11brown (Luke Brown)
+29. Enhancement - Change NODE symbology to have dotted lines on high level CTAs - thanks to @SamLefevre (Samuel Lefevre)
+30. Enhancement - Added Harwarden RMA to Liverpool profile - thanks to @SamLefevre (Samuel Lefevre)
+31. Enhancement - Change LTC displays to new tickless centrelines and disables GD/GW/FF CTA - thanks to @SamLefevre (Samuel Lefevre)
+X. Bug - Fixed QNH formatting in London Gatwick (EGKK/LGW) vATIS profile - thanks to @hazzas-99
+
 # Changes from release 2023/08 to 2023/09
 1. Bug - vATIS files EGKK frequency corrected - thanks to @luke11brown (Luke Brown)
 2. Bug - Update TopSky clearance item in departure list to use new DCL Window - thanks to @luke11brown (Luke Brown)
 3. Enhancement - 8.33kHz information alias command (.833) added - thanks to @luke11brown (Luke Brown)
 4. Procedure Change (2309) - 8.33 Trial (ENR Phase 1) - LAC West & LAC Clacton frequencies amended - thanks to @luke11brown (Luke Brown)
-5. AIRAC (2309) - EG D001 (Trevose Head) activation schedule amended - thanks to @luke11brown (Luke Brown)
-6. AIRAC (2039) - EG D713 (FJA South) & EG D901 (FJA North) added - thanks to @luke11brown (Luke Brown)
-7. Procedure Change (2309) - 8.33 Trial (AD Phase 1) - EGLL, EGPH, EGSS, EGGP frequencies amended - thanks to @luke11brown (Luke Brown)
+5. Procedure Change (2309) - 8.33 Trial (ENR Phase 1) - vATIS profiles updated for LAC West & LAC Clacton frequencies - thanks to @hazzas-99
+6. AIRAC (2309) - EG D001 (Trevose Head) activation schedule amended - thanks to @luke11brown (Luke Brown)
+7. AIRAC (2039) - EG D713 (FJA South) & EG D901 (FJA North) added - thanks to @luke11brown (Luke Brown)
+8. Procedure Change (2309) - 8.33 Trial (AD Phase 1) - EGLL, EGPH, EGSS, EGGP frequencies amended - thanks to @luke11brown (Luke Brown)
+9. AIRAC (2309) - Updated Heathrow hold inbound courses in aliases - thanks to @AliceFord (Alice Ford)
+10. Bug - Disable route draw on AC profiles (TopSky double route draw) - thanks to @SamLefevre (Samuel Lefevre)
+11. Bug - Fix Luton ATM to show aircraft - thanks to @SamLefevre (Samuel Lefevre)
+12. Enhancement - Add new pilot alias - thanks to @SamLefevre (Samuel Lefevre)
+13. Enhancement - added Channel Islands profiles, displays & settings thanks to @luke11brown (Luke Brown)
+14. Enhancement - Logon details entry program added - thanks to @SamLefevre (Sam Lefevre)
+15. Enhancement - Removed observer profiles, displays and related settings files - thanks to @SamLefevre (Sam Lefevre)
+16. AIRAC (2309) - Updated Wattisham Tower (EGUW_TWR) frequency - thanks to @hazzas-99
+17. Enhancement - Added further area event split frequencies to voice settings (lines start X Area -...) - thanks to @hazzas-99
+18. Enhancement - Added London Gatwick (EGKK/LGW) vATIS profile - thanks to @hazzas-99
+19. Enhancement - Updated NERC history trails to align with reality (colour change and generated by UKCP) - thanks to @Samlefevre (Same Lefevre)
+20. Enhancement - Updated Scottish Upper non-TopSky profile to use NERC symbology and removed 'old' ACI symbology & profiles - thanks to @hazzas-99
+21. Enhancement - Added equipment code in ICAO format setting - thanks to @hazzas-99
+22. Enhancement - Update AC tags to match real world - thanks to @SamLefevre (Samuel Lefevre)
 
 x. AIRAC (2309) - Updated Heathrow hold inbound courses in aliases - thanks to @AliceFord (Alice Ford)
 
@@ -85,7 +141,7 @@ x. AIRAC (2309) - Updated Heathrow hold inbound courses in aliases - thanks to @
 12. Enhancement - Updated all Area ASR displays (added missing airspace bases and other maps) - thanks to @hazzas-99
 
 # Changes from release 2022/05 to 2022/09
-1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLeFevre (Sam Le Fevre)
+1. Enhancement - Edinburgh radar profiles updated - thanks to @SamLefevre (Sam Lefevre)
 2. Enhancement - Updated included UKControllerPlugin version to 5.4.4 - thanks to @AndyTWF (Andy Ford)
 3. Enhancement - VCCS server settings updated & corrected - thanks to @luke11brown (Luke Brown)
 4. AIRAC (2209) - Updated Cranfield SMR display elements - thanks to @luke11brown (Luke Brown)
